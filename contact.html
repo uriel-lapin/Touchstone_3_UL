@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="North Star Bakery -- Contact Us">
+	<title>Contact Us</title>
+	<link rel="icon" type="image/png" href="Assets/Images/bakery-logo_c.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+	<img src="Assets/Images/bakery-logo_c.png" alt="Our creative and original logo" width="250">
+	<h2> Freshly Baked Daily with a Slice of Home </h2>
+	<h3> Since 1992 </h3>
+</header>
+
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="products.html">Products</a></li>
+		<li><a href="contact.html" class="active">Contact Us</a></li>
+	</ul>
+</nav>
+
+<main>
+	<h1> Contact Us </h1>
+
+	<div class="contact-layout">
+
+		<section class="contact-form-section">
+			<form>
+				<fieldset>
+					<legend>Contact Info</legend>
+					<label for="name">Name:</label><br>
+					<input type="text" id="name" name="name" required><br><br>
+					
+					<label for="email">Email:</label><br>
+					<input type="email" id="email" name="email" required><br><br>
+					<label>Order Details</label>
+					
+					<label>Request Type:</label><br>
+					<input type="radio" id="pre-order" name="request-type" value="pre-order" required>
+					<label for="pre-order">Pre-order</label><br>
+					<input type="radio" id="question" name="request-type" value="question">
+					<label for="question">General Question</label><br><br>
+					
+					<label for="pickup-date">Pickup Date:</label><br>
+					<input type="date" id="pickup-date" name="pickup-date" required><br><br>
+					
+					<label for="details">Item Details:</label><br>
+					<textarea id="details" name="details" rows="4" cols="80" required></textarea><br><br>
+					
+					<label for="allergies">Allergy Notes:</label><br>
+					<textarea id="allergies" name="allergies" rows="4" cols="80"></textarea><br><br>
+				</fieldset>
+
+				<br>
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+
+		<section class="contact-location-section">
+			<h3>Location &amp; Hours</h3>
+			<img src="Assets/Images/bakery-storefront_c.png" alt="North Star Bakery welcoming storefront with street-level entrance and display windows" width="500">
+			<address>
+				<strong>North Star Bakery</strong><br>
+				272 Place Street<br>
+				Cityville NY, 00000-0000<br>
+				You can also reach us by Email or Phone during operating hours<br>
+				Email us here:
+				<a href="mailto:exampleaddress@example.com">exampleaddress@example.com</a><br>
+				Or call us at: 
+				<a href="tel:+11111111111">(111) 111-1111</a>
+			</address>
+			<h4>Store Hours</h4>
+			<ul class="hours-list">
+				<li>Mon-Sat: 6:30 am to 8:00 pm</li>
+				<li>Sun: 11:00 am to 4:00 pm</li>
+			</ul>
+		</section>
+
+	</div>
+
+</main>
+
+<footer>
+	<p>&copy; 2026 North Star Bakery</p>
+</footer>
+
+</body>
+</html>

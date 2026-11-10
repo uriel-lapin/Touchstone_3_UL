@@ -1,5 +1,5 @@
 /* Stylesheet for North Star Bakery: 
-   Colorr: Dark brown (#3D2B1F), brick-orange (#B85D38), cream (#F7F4EE), wshite (#FFFFFF).
+   Colorr: Dark brown (#3D2B1F), brick-orange (#B85D38), cream (#FFF8F0), wshite (#FFFFFF).
    Fonts: Trebuchet MS for headings, Arial for body text */
 
 /*Universal box-sizing using standard border-box for consistency */
@@ -11,7 +11,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #F7F4EE;
+    background-color: #FFF8F0;
     color: #3D2B1F;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
@@ -146,7 +146,7 @@ section {
 
 /* Featured item card styling and centering */
 .featured-item {
-    background-color: #F7F4EE;
+    background-color: #FFF8F0;
     border: 1px solid #B85D38;
     padding: 10px;
     margin: 15px 0;
@@ -316,7 +316,7 @@ input[type="radio"] + label {
 /* Submit button colors, padding and cursor */
 input[type="submit"] {
     background-color: #B85D38;
-    color: #F7F4EE;
+    color: #FFF8F0;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
